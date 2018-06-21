@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Volvox
+</name>
+</assembly>
+<members>
+<member name="T:Volvox.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Crc32C_NET">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Crc32C_NET1">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;doc&gt;
+    &lt;assembly&gt;
+        &lt;name&gt;Crc32C.NET&lt;/name&gt;
+    &lt;/assembly&gt;
+    &lt;members&gt;
+        &lt;member name=&quot;T:Crc32C.Crc32CAlgorithm&quot;&gt;
+            &lt;summary&gt;
+            Implementation of CRC-32C (Castagnoli) with polynomial 0x1EDC6F41.
+            It can detect errors more reliably than the older CRC-32-IEEE.
+            This class will use CRC32 instruction on recent Intel processors if it is available.
+            Otherwise it will transparently fall back to a very fast softw [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.E57LibCommon">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.E57LibReader">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.E57LibWriter">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.KDTree_Common">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.KDTree_Core">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Licence">
+<summary>
+  Looks up a localized string similar to Please read the following licences.
+Volvox is shipped with a CRC-32C library by Robert Važan, and you can find the licence description below.
+Volvox is shipped with a modified KDTree implementation based on the work of Cameron NewHam for Tarsier (Grasshopper), and you can se the licence below. 
+______________________________________
+
+Volvox Licence
+The MIT License (MIT)
+Copyright (c) 2016 DURAARK
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated do [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.UnVolvox">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_0_4_0_1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_0_4_0_2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_Cloud">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_Common">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_Instr">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.Volvox_Python">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Volvox.My.Resources.Resources.VolvoxIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+</members>
+</doc>

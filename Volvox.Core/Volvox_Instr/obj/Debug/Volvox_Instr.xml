@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Volvox_Instr
+</name>
+</assembly>
+<members>
+<member name="T:Volvox_Instr.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Volvox_Instr.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Volvox_Instr.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Volvox_Instr.My.Resources.Resources.Icon_Instruction">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox_Instr.Instr_BaseReporting.ReportPercent">
+ <summary>
+ Set this value from 0 to 100 so the Engine can display the completed percent of instruction.
+ </summary>
+ <returns>Current percent completed</returns>
+</member>
+<member name="P:Volvox_Instr.Instr_BaseReporting.ReportCustom">
+ <summary>
+ Set this string to any message you would like to display.
+ </summary>
+ <returns></returns>
+</member>
+<member name="E:Volvox_Instr.Instr_BaseReporting.ReportingPercent">
+ <summary>
+ Don't use it if you don't know what you're doing.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:Volvox_Instr.Instr_BaseReporting.ReportingCustom">
+ <summary>
+ Don't use it if you don't know what you're doing.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:Volvox_Instr.Instr_BaseReporting.ReportingPercentArgs">
+ <summary>
+ Reporting percent event arguments.
+ </summary>
+</member>
+<member name="T:Volvox_Instr.Instr_BaseReporting.ReportingCustomArgs">
+ <summary>
+ Reporting custom string event arguments.
+ </summary>
+</member>
+<member name="M:Volvox_Instr.Instr_BaseReporting.Abort">
+ <summary>
+ For multithreaded instructions-you have to abort each thread you've created.
+ </summary>
+</member>
+<member name="P:Volvox_Instr.Instr_Base.InstructionGUID">
+ <summary>
+ GUID to differentiate between instructions. Please store the GUIDs in the GUID_Space.vb file.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Volvox_Instr.Instr_Base.InstructionType">
+ <summary>
+ Displayed name of the instruction.
+ Instruction type is displayed to end user, please stay calm with this one.
+ Also note - provide any name for the instruction, otherwise the instruction will be invalid.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Volvox_Instr.Instr_Base.Execute(Rhino.Geometry.PointCloud@)">
+ <summary>
+ This is what the instruction actually does.
+ </summary>
+ <param name="PointCloud">Please note point cloud is passed with ByRef.</param>
+ <remarks>Return true if execution is successful</remarks>
+</member>
+<member name="M:Volvox_Instr.Instr_Base.Execute(System.Collections.Generic.List{Rhino.Geometry.PointCloud}@)">
+ <summary>
+ This is what the instruction actually does.
+ </summary>
+ <param name="PointClouds"> Please note point cloud is passed with ByRef.</param>
+ <remarks>Return true if execution is successful</remarks>
+ <returns></returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+E57LibWriter
+</name>
+</assembly>
+<members>
+<member name="T:E57LibWriter.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:E57LibWriter.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:E57LibWriter.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:E57LibWriter.e57Document.FormatName">
+ <summary>
+ Shall be "ASTM E57 3D Imaging Data File”.", according to the standard. Consider twice any modifications.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibWriter.e57Document.Guid">
+ <summary>
+ This value is required, use e57Document.GenerateGuid or provide your own Guid generated in any other way.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibWriter.e57Document.VersionMajor">
+ <summary>
+ Shall be 1, according to the standard. Consider twice any modifications.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibWriter.e57Document.VersionMinor">
+ <summary>
+ Shall be 0, according to the standard. Consider twice any modifications.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:E57LibWriter.ScanData.AppendData(System.String,System.Collections.Generic.List{System.Int64})">
+ <summary>
+ Append all ElementName values only once
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Data"></param>
+</member>
+<member name="M:E57LibWriter.ScanData.AppendData(System.String,System.Collections.Generic.List{System.Single})">
+ <summary>
+ Append all ElementName values only once
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Data"></param>
+</member>
+<member name="M:E57LibWriter.ScanData.AppendData(System.String,System.Collections.Generic.List{System.Double},System.Boolean)">
+ <summary>
+ Append all ElementName values only once
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Data"></param>
+ <param name="AsScaled"></param>
+</member>
+<member name="P:E57LibWriter.Scan.SectionLength">
+ <summary>
+ Length in bits of the whole binary part (that's for xml) 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibWriter.Scan.CompressedVectorOffset">
+ <summary>
+ Offset of the whole binary part (that's for xml part) 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibWriter.Scan.Pose">
+ <summary>
+ Order according to the e57standard table (page 12) 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:E57LibWriter.Scan.AppendData(System.String,System.Collections.Generic.List{System.Single})">
+ <summary>
+ Append all ElementName values only once
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Data"></param>
+</member>
+<member name="M:E57LibWriter.Scan.AppendData(System.String,System.Collections.Generic.List{System.Double},System.Boolean)">
+ <summary>
+ SCALED INTEGERS NOT SUPPORTED !!! Append all ElementName values only once
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Data"></param>
+ <param name="AsScaled"></param>
+</member>
+</members>
+</doc>

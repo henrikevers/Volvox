@@ -1,0 +1,418 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Volvox.Common_00
+</name>
+</assembly>
+<members>
+<member name="T:Volvox.Common.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.DURAARK_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.DURAARK_logo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_AddData">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Average">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Bounds">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_BoxCrop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CleanCloud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ClippingPlane">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ClosestPoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CloudExpression">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CloudParam">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Command">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CommandE57">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CommandXYZ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Compare">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Construct">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Convert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_CullCloud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Deconstruct">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Delaunay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Disjoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_E57Metadata">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Engine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_EngineX">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_GetData">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_GetDataItem">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_GetPoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_GetPosition">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Grid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Instruction">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ListKeys">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Load">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_LoadE57">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_LoadE57EX">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_LoadEngine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_LoadEngineE57">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_LoadEX">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Merge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_MeshCull">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_MMerge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_OpenCC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ParamE57">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ParamXYZ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_PlaneClip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Preview100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_PreviewData">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_RandomCC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_RandomSub">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_RemoveData">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SaveE57">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SaveE57Engine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SaveE57Ex">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SaveXYZEngine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_ScriptCloud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Section">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Selection">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SetPosition">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SpatialCC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SphereCrop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Stats">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_SubCloud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Transform">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_Volvox">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_VoxelColored">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Icon_VoxelSub">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Volvox.Common.My.Resources.Resources.Volvox">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Volvox.Common.Math_Utils.PlaneToQuaternion(Rhino.Geometry.Plane)">
+ <summary>
+ Moves the origin to the  Point3d.Origin first.
+ </summary>
+ <param name="P"></param>
+ <returns></returns>
+</member>
+<member name="M:Volvox.Common.Math_Utils.IsInBox(Rhino.Geometry.Point3d,Rhino.Geometry.Box)">
+ <summary>
+ Just cause OCD... this is exactly box.contains from Rhino.
+ </summary>
+ <param name="Point"></param>
+ <param name="TestBox"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Volvox.Common.Math_Utils.IsInSphere(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double)">
+ <summary>
+ Checks if point lies within a sphere.
+ </summary>
+ <param name="Point">Point to test</param>
+ <param name="Center">Sphere center</param>
+ <param name="Radius">Sphere radius</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Volvox.Common.Math_Utils.SphericalPoint(Rhino.Geometry.Point3d,Rhino.Geometry.Plane)">
+ <summary>
+ Converts XYZ point to spherical coordinates.
+ </summary>
+ <param name="Point">Point to convert</param>
+ <param name="Origin">Origin plane</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Volvox.Common.Math_Utils.FastDistCheck(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d)">
+ <summary>
+ Distance between 2 points without the Sqrt part.
+ </summary>
+ <param name="A">First point</param>
+ <param name="B">Second point</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Volvox.Common.Math_Utils.FastPlaneToPt(System.Double,System.Double,System.Double,System.Double,System.Double,Rhino.Geometry.Point3d)">
+ <summary>
+ Just a bit faster than Rhino.Geometry.Plane.DistanceTo
+ </summary>
+ <param name="denom">Equation denominator = 1/math.sqrt(a^2+b^2+c^2+d^2)</param>
+ <param name="a"></param>
+ <param name="b"></param>
+ <param name="c"></param>
+ <param name="d"></param>
+ <param name="Pt"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

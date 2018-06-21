@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+E57LibCommon
+</name>
+</assembly>
+<members>
+<member name="T:E57LibCommon.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:E57LibCommon.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:E57LibCommon.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:E57LibCommon.Binary.GenerateChecksum(System.Byte[])">
+ <summary>
+ In this case it should always be 1020 bytes 
+ </summary>
+ <param name="Bytes"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.Binary.ChecksumFromBytes(System.Byte[])">
+ <summary>
+ Get checksum UInt32 from 4 bytes. Reverses the byte order to match the file order.
+ </summary>
+ <param name="Bytes"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.Binary.ChecksumToBytes(System.UInt32)">
+ <summary>
+ Gets bytes from UInt32 and reverses them to match the file order.
+ </summary>
+ <param name="Sum"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.DecodingModules.GetFileHeaderBytes(System.String)">
+ <summary>
+ Gets first 48 bytes of a file
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadFileHeader(System.String,System.String@,System.UInt32@,System.UInt32@,System.UInt64@,System.UInt64@,System.UInt64@,System.UInt64@)">
+ <summary>
+ Reads file header
+ </summary>
+ <param name="FilePath"></param>
+ <param name="FileSignature"></param>
+ <param name="VersionMajor"></param>
+ <param name="VersionMinor"></param>
+ <param name="FileLength"></param>
+ <param name="xmlOffset"></param>
+ <param name="xmlLength"></param>
+ <param name="PageSize"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadCompressedVectorHeader(System.Byte[],System.Byte@,System.Byte[]@,System.UInt64@,System.UInt64@,System.UInt64@)">
+ <summary>
+ Table 35
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="sectionId"></param>
+ <param name="reserved"></param>
+ <param name="sectionLength"></param>
+ <param name="dataStartOffset"></param>
+ <param name="indexStartOffset"></param>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadIndexPacketHeader(System.Byte[],System.Byte@,System.Byte@,System.UInt16@,System.UInt16@,System.Byte@,System.Byte[]@)">
+ <summary>
+ Table 36
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="packetType"></param>
+ <param name="reserved"></param>
+ <param name="packetLengthMinus1"></param>
+ <param name="entryCount"></param>
+ <param name="indexLevel"></param>
+ <param name="reserved2"></param>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadPacketAddressEntry(System.Byte[],System.UInt64@,System.UInt64@)">
+ <summary>
+ Table 37
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="chunkRecordIndex"></param>
+ <param name="packetOffset"></param>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadDataPacketHeader(System.Byte[],System.Byte@,System.Byte@,System.UInt16@,System.UInt16@)">
+ <summary>
+ Table 38
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="packetType"></param>
+ <param name="packetFlags"></param>
+ <param name="packetLengthMinus1"></param>
+ <param name="bytestreamCount"></param>        
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadPacketFlags(System.Byte,System.Boolean@,System.Byte[]@)">
+ <summary>
+ Table 39
+ </summary>
+ <param name="ByteToRead"></param>
+ <param name="compressorRestart"></param>
+ <param name="reserved">Not supported, set to nothing.</param>
+</member>
+<member name="M:E57LibCommon.DecodingModules.WritePacketFlags(System.Boolean)">
+ <summary>
+ TODO there might be a problem with bit order here 
+ </summary>
+ <param name="compressorRestart"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadIgnoredPacketHeader(System.Byte[],System.Byte@,System.Byte@,System.UInt16@)">
+ <summary>
+ Table 40
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="packetType"></param>
+ <param name="reserved"></param>
+ <param name="packetLengthMinus1"></param>
+</member>
+<member name="M:E57LibCommon.DecodingModules.ReadString(System.Byte[],System.Boolean@,System.UInt64@,System.String@)">
+ <summary>
+ Table 41 and 42
+ </summary>
+ <param name="BytesToRead"></param>
+ <param name="stringType"></param>
+ <param name="length"></param>
+ <param name="stringData"></param>
+</member>
+<member name="M:E57LibCommon.Maths.CartesianToSpherical(System.Double,System.Double,System.Double)">
+ <summary>
+ Returns Range, Azimuth, Elevation in that order
+ </summary>
+ <param name="X"></param>
+ <param name="Y"></param>
+ <param name="Z"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

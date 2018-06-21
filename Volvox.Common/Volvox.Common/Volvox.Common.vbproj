@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Rhinoceros 5.0 (64-bit)\System\Rhino.exe</StartProgram>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE114777-1358-4B08-B607-36A7101AB721}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Volvox.Common</RootNamespace>
+    <AssemblyName>Volvox.Common</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\AllBuild\</OutputPath>
+    <DocumentationFile>Volvox.Common.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Volvox.Common.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crc32C.NET, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Crc32C.NET.1.0.5.0\lib\net20\Crc32C.NET.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GH_IO">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\GH_IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\Grasshopper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IronPython, Version=2.7.7.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IronPython.2.7.7\lib\Net45\IronPython.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IronPython.Modules, Version=2.7.7.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IronPython.2.7.7\lib\Net45\IronPython.Modules.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IronPython.SQLite, Version=2.7.7.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IronPython.2.7.7\lib\Net45\IronPython.SQLite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IronPython.Wpf, Version=2.7.7.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IronPython.2.7.7\lib\Net45\IronPython.Wpf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic, Version=1.1.2.22, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicLanguageRuntime.1.1.2\lib\Net45\Microsoft.Dynamic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Scripting, Version=1.1.2.22, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicLanguageRuntime.1.1.2\lib\Net45\Microsoft.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.AspNet, Version=1.1.1.21, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicLanguageRuntime.1.1.2\lib\Net45\Microsoft.Scripting.AspNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata, Version=1.1.2.22, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicLanguageRuntime.1.1.2\lib\Net45\Microsoft.Scripting.Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Rhinoceros 5 (64-bit)\System\RhinoCommon.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Utils\E57_CloudConstructorEx.vb" />
+    <Compile Include="Utils\E57_CloudExporter.vb" />
+    <Compile Include="Utils\MessageEventArgs.vb" />
+    <Compile Include="Utils\E57_ConstructorMessageEventArgs.vb" />
+    <Compile Include="Utils\Math_EvalFunction.vb" />
+    <None Include="Utils\Utils_PythonLoad.vb" />
+    <Compile Include="Utils\E57_CloudConstructor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Utils\Asmbl_Description.vb" />
+    <Compile Include="Utils\Utils_IO.vb" />
+    <Compile Include="Utils\PointCloud_Tools.vb" />
+    <Compile Include="Utils\Threading_Load.vb" />
+    <Compile Include="Utils\Control_Display.Designer.vb">
+      <DependentUpon>Control_Display.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Control_Display.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utils\Math_EvalProvider.vb" />
+    <Compile Include="Utils\Multipoint.vb" />
+    <Compile Include="Utils\Parse_Load.vb" />
+    <Compile Include="Utils\Parse_MultiLoad.vb" />
+    <Compile Include="Utils\Parse_Save.vb" />
+    <None Include="Utils\MySettings.vb" />
+    <Compile Include="Utils\Math_Utils.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\Control_Display.resx">
+      <DependentUpon>Control_Display.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Icon_CloudParam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Engine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Instruction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Deconstruct.png" />
+    <None Include="Resources\Icon_Construct.png" />
+    <None Include="Resources\Icon_ClosestPoint.png" />
+    <None Include="Resources\Icon_Section.png" />
+    <None Include="Resources\Icon_GetPoint.png" />
+    <None Include="Resources\Icon_Merge.png" />
+    <None Include="Resources\Icon_Average.png" />
+    <None Include="Resources\Icon_Compare.png" />
+    <None Include="Resources\Icon_Delaunay.png" />
+    <None Include="Resources\Icon_Disjoint.png" />
+    <None Include="Resources\Icon_Load.png" />
+    <None Include="Resources\Icon_Save.png" />
+    <None Include="Resources\Icon_Transform.png" />
+    <None Include="Resources\Icon_RandomSub.png" />
+    <None Include="Resources\Icon_VoxelSub.png" />
+    <None Include="Resources\Icon_PlaneClip.png" />
+    <None Include="Resources\Icon_BoxCrop.png" />
+    <None Include="Resources\Icon_SphereCrop.png" />
+    <None Include="Resources\Icon_SpatialCC.png" />
+    <None Include="Resources\Icon_RandomCC.png" />
+    <None Include="Resources\Icon_Command.png" />
+    <None Include="Resources\Icon_CommandE57.png" />
+    <None Include="Resources\Icon_CommandXYZ.png" />
+    <None Include="Resources\Icon_OpenCC.png" />
+    <None Include="Resources\Icon_Convert.png" />
+    <None Include="Resources\Icon_VoxelColored.png" />
+    <None Include="Resources\DURAARK logo.jpg" />
+    <None Include="Resources\Icon_Volvox.png" />
+    <None Include="Resources\DURAARK logo2.jpg" />
+    <None Include="Resources\Volvox.png" />
+    <None Include="Resources\Icon_Grid.png" />
+    <None Include="Resources\Icon_MMerge.png" />
+    <None Include="Resources\Icon_EngineX.png" />
+    <None Include="Resources\Icon_AddData.png" />
+    <None Include="Resources\Icon_RemoveData.png" />
+    <None Include="Resources\Icon_ListKeys.png" />
+    <None Include="Resources\Icon_GetData.png" />
+    <None Include="Resources\Icon_Bounds.png" />
+    <None Include="Resources\Icon_CullCloud.png" />
+    <None Include="Resources\Icon_PreviewData.png" />
+    <None Include="Resources\Icon_CloudExpression.png" />
+    <None Include="Resources\Icon_LoadEngine.png" />
+    <None Include="Resources\Icon_Stats.png" />
+    <None Include="Resources\Icon_SubCloud.png" />
+    <None Include="Resources\Icon_CleanCloud.png" />
+    <None Include="Resources\Icon_LoadE57.png" />
+    <None Include="Resources\Icon_LoadE57EX.png" />
+    <None Include="Resources\Icon_LoadEX.png" />
+    <None Include="Resources\Icon_LoadEngineE57.png" />
+    <None Include="Resources\Icon_ClippingPlane.png" />
+    <None Include="Resources\Icon_Selection.png" />
+    <None Include="Resources\Icon_MeshCull.png" />
+    <None Include="Resources\Icon_Preview100.png" />
+    <None Include="Resources\Icon_E57Metadata.png" />
+    <None Include="Resources\Icon_GetDataItem.png" />
+    <None Include="Resources\Icon_GetPosition.png" />
+    <None Include="Resources\Icon_SaveE57.png" />
+    <None Include="Resources\Icon_SaveE57Engine.png" />
+    <None Include="Resources\Icon_SaveE57Ex.png" />
+    <None Include="Resources\Icon_SaveXYZEngine.png" />
+    <None Include="Resources\Icon_ScriptCloud.png" />
+    <None Include="Resources\Icon_SetPosition.png" />
+    <None Include="Resources\Icon_ParamE57.png" />
+    <None Include="Resources\Icon_ParamXYZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Volvox.Core\e57Lib\E57LibCommon\E57LibCommon.vbproj">
+      <Project>{6edd7094-1b77-46b1-a978-1d9b50141ed6}</Project>
+      <Name>E57LibCommon</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Volvox.Core\e57Lib\E57LibWriter\E57LibWriter.vbproj">
+      <Project>{ac932f24-906e-48fa-8ad6-027dd48c96f2}</Project>
+      <Name>E57LibWriter</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Volvox.Core\e57Lib\E57Lib\E57LibReader.vbproj">
+      <Project>{9206bd2f-62f2-4a7b-9252-002a67c8a7a4}</Project>
+      <Name>E57LibReader</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Volvox.Core\Volvox_Cloud\Volvox_Cloud.vbproj">
+      <Project>{a9d77871-b936-4589-b7b6-1cc96b103d23}</Project>
+      <Name>Volvox_Cloud</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Volvox.Core\Volvox_Instr\Volvox_Instr.vbproj">
+      <Project>{918d8338-71ac-4d03-9214-1137138be9ac}</Project>
+      <Name>Volvox_Instr</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_KDTree_Construct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_AverageData_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_CloudCompare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_CloudNormals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_CloudParam_KDTree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_ColorBlend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_ColorGradient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_GrayScale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_KDTree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_KDTree_Deconstruct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_KDTree_NearestNeighbor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_PlaneCompare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_StandardDeviationData.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)Volvox_Installer\VolvoxInstaller\VolvoxInstaller\Resources\$(ProjectName).dll"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+E57LibReader
+</name>
+</assembly>
+<members>
+<member name="T:E57LibReader.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:E57LibReader.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:E57LibReader.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:E57LibReader.Scan.CartesianBounds">
+ <summary>
+ xMinimum/xMaximum/yMinimum/yMaximum/zMinimum/zMaximum
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibReader.Scan.SphericalBounds">
+ <summary>
+ rangeMinimum/rangeMaximum/elevationMinimum/elevationMaximum/azimuthStart/azimuthStart
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibReader.Scan.IntensityLimits">
+ <summary>
+ intensityMinimum/intensityMaximum
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:E57LibReader.Scan.ColorLimits">
+ <summary>
+ colorRedMinimum/colorRedMaximum/colorGreenMinimum/colorGreenMaximum/colorBlueMinimum/colorBlueMaximum
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.ScanData.DuplicateDataOnly">
+ <summary>
+ Doesn't keep track of parent.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.ScanData.AppendBytes(System.String,System.Byte[],System.Boolean,System.Double)">
+ <summary>
+ Adds Doubles and Singles
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Bytes"></param>
+ <param name="IsDoublePrecision"></param>
+ <param name="SubSampleRate"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.ScanData.AppendBytes(System.String,System.Byte[],System.Int64,System.Int64,System.Double,System.Double,System.Double)">
+ <summary>
+ Adds Scaled Integers
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Bytes"></param>
+ <param name="Minimum"></param>
+ <param name="Maximum"></param>
+ <param name="Scale"></param>
+ <param name="Offset"></param>
+ <param name="SubSampleRate"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.ScanData.AppendBytes(System.String,System.Byte[],System.Int64,System.Int64,System.Double)">
+ <summary>
+ Adds Integers
+ </summary>
+ <param name="ElementName"></param>
+ <param name="Bytes"></param>
+ <param name="Minimum"></param>
+ <param name="Maximum"></param>
+ <param name="SubSampleRate"></param>
+ <returns></returns>
+</member>
+<member name="T:E57LibReader.ScanData.ElementType">
+ <summary>
+ Empty means there is no such entry
+ </summary>
+</member>
+<member name="M:E57LibReader.e57Structure.GetString(System.String)">
+ <summary>
+ Valid with VectorChilds... looks up only in child elements(no recursion)
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.e57Structure.GetDouble(System.String)">
+ <summary>
+ Valid with VectorChilds... looks up only in child elements(no recursion)
+ </summary>
+ <param name="Name"></param>
+ <returns></returns>
+</member>
+<member name="M:E57LibReader.e57Node.GetChildren(E57LibReader.e57Path,System.Collections.Generic.List{E57LibReader.e57Node}@)">
+ <summary>
+ </summary>
+ <param name="Path"> Has to follow "../child1/child2/child3" scheme</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:E57LibReader.e57Path">
+ <summary>
+ Path accepts only "/" as separator.
+ Path has to follow that scheme 
+ "../node1/node2/node3" (".." means the current node)
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
