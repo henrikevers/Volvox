@@ -32,3 +32,14 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox.Common.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox.Common.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox.Common.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.Common.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.Common.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.Common.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.Control_Display.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Common\Volvox.Common\obj\Debug\Volvox.Common.pdb

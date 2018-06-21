@@ -47,3 +47,19 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.xml
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.exe.config
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.exe
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\yo\Volvox.resources.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.InstallerWindow.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.LicenceAgreement.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.LicenceAgreement.yo.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\yo\Volvox.resources.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.exe
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox_Installer\VolvoxInstaller\VolvoxInstaller\obj\Debug\Volvox.pdb
