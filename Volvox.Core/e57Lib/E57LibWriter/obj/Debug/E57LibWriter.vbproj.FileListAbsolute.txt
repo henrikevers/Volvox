@@ -26,3 +26,13 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.xml
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibWriter.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibWriter.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibWriter.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibWriter\obj\Debug\E57LibWriter.pdb

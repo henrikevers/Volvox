@@ -10,3 +10,8 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.csprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\KDTree.Core.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\KDTree.Core.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.csproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.Core\obj\Debug\KDTree.Core.pdb

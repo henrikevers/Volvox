@@ -18,3 +18,9 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.KDTree\KDTree.GH.Common\obj\Debug\KDTree.Common.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\KDTree.Common.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\KDTree.Common.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\KDTree.Common.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\KDTree.Common.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.GH.Common\obj\Debug\KDTree.Common.csprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.GH.Common\obj\Debug\KDTree.Common.csproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.GH.Common\obj\Debug\KDTree.Common.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.KDTree\KDTree.GH.Common\obj\Debug\KDTree.Common.pdb

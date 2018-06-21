@@ -33,3 +33,13 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox_Instr.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox_Instr.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\AllBuild\Volvox_Instr.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox_Instr.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox_Instr.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\Volvox_Instr.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\Volvox_Instr\obj\Debug\Volvox_Instr.pdb

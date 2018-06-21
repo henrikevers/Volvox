@@ -26,3 +26,13 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.dll
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.xml
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibReader.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibReader.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibReader.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57Lib\obj\Debug\E57LibReader.pdb

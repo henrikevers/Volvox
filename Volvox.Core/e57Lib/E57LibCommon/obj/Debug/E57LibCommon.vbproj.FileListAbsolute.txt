@@ -25,3 +25,12 @@ C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\V
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.xml
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.pdb
 C:\Users\hle\Dropbox (Personal)\CODE\Visual Studio 2015\Projects\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.vbprojResolveAssemblyReference.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibCommon.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibCommon.pdb
+C:\Users\hle\Documents\GitHub\Volvox-master\AllBuild\E57LibCommon.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.Resources.resources
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.vbproj.GenerateResource.Cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.vbproj.CoreCompileInputs.cache
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.dll
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.xml
+C:\Users\hle\Documents\GitHub\Volvox-master\Volvox.Core\e57Lib\E57LibCommon\obj\Debug\E57LibCommon.pdb
